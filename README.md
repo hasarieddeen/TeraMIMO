@@ -59,7 +59,7 @@ We highly recommend you execute the code step-by-step (using MATLAB's debug mode
 
 2- In the GUI, select the parameters as required for your simulation and click on “Run"!
 
-3- The results are saved to the workspace
+3- The results are saved to the workspace!
 
 
 
