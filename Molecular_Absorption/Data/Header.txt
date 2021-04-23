@@ -1,0 +1,69 @@
+---- TeraMIMO Channel Simulator v1.0. ----
+
+
+The fields output for this profile are listed in order below with format strings, units and description the following information: :
+
+Fortran READ format specifier:
+I1, 1X, F12.6, 1X, E10.3, 1X, F9.6, 1X, F7.4, 1X, F6.4, 1X, F5.3, 1X, 
+
+local_iso_id
+------------
+Data type: int
+C-style format specifier: %1d
+Fortran-style format specifier: I1
+Units: [dimensionless]
+Description: Integer ID of a particular Isotopologue, unique only to a given molecule, in order or abundance (1 = most abundant)
+
+nu
+--
+Data type: float
+C-style format specifier: %12.6f
+Fortran-style format specifier: F12.6
+Units: cm-1
+Description: Transition wavenumber
+
+sw
+--
+Data type: float
+C-style format specifier: %10.3E
+Fortran-style format specifier: E10.3
+Units: cm-1/(molec.cm-2)
+Description: Line intensity, multiplied by isotopologue abundance, at T = 296 K
+
+delta_air
+---------
+Data type: float
+C-style format specifier: %9.6f
+Fortran-style format specifier: F9.6
+Units: cm-1.atm-1
+Description: Pressure shift induced by air, referred to p=1 atm
+
+n_air
+-----
+Data type: float
+C-style format specifier: %7.4f
+Fortran-style format specifier: F7.4
+Units: [dimensionless]
+Description: Temperature exponent for the air-broadened HWHM
+
+gamma_air
+---------
+Data type: float
+C-style format specifier: %6.4f
+Fortran-style format specifier: F6.4
+Units: cm-1.atm-1
+Description: Air-broadened Lorentzian half-width at half-maximum at p = 1 atm and T = 296 K
+
+gamma_self
+----------
+Data type: float
+C-style format specifier: %5.3f
+Fortran-style format specifier: F5.3
+Units: cm-1.atm-1
+Description: Self-broadened HWHM at 1 atm pressure and 296 K
+
+abundance
+---------
+Data type: float
+Units: [dimensionless]
+Description: Isotopologue abundance: ratio of isotope inside the gas
