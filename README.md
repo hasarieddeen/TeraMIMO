@@ -64,7 +64,7 @@ We highly recommend you execute the code step-by-step (using MATLAB's debug mode
 
 
 
-Note: The code assumes the presence of a few gases in the medium in its default mode. You can experiment with more combinations of gases by adding more .csv files for different gases from the folder "Molecular_Absorption", subfolder "Data_Full", to the subfolder "Data".
+Note: The code assumes the presence of a few gases in the medium in its default mode. You can experiment with more combinations of gases by adding more .csv files for different gases from the folder "Molecular_Absorption," subfolder "Data_Full," to the subfolder "Data,"
 
 
 
