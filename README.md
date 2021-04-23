@@ -42,7 +42,7 @@ The code computes the molecular absorption coefficient using compute_Abs_Coef.m 
 
 The main channel computations for both frequency and delay domains are executed in channel_TIV.m
 
-For more details on the inputs and outputs of each function, check the "help" text for these functions
+For more details on the inputs and outputs, check the "help" text of each function
 
 You can visualize the channel using Plot_TIV_THz_Channel
 
