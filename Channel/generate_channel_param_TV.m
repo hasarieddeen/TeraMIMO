@@ -159,7 +159,7 @@ p.deltaNr = 1e-8;    % Spacing between columns of AEs @Rx
 
 % Define local/global position and Euler angles
 p.positionTx = [0; 0; 0];     % Tx center 3D positions (global coordinates)
-p.eulerTx = [pi/4; 0; 0];     % Tx Euler rotation angles, following ZYX intrinsic rotation
+p.eulerTx = [0; 0; 0];     % Tx Euler rotation angles, following ZYX intrinsic rotation
 
 p.positionRx = [1; 0; 0];     % Rx center 3D positions (global coordinates)
 p.eulerRx = [pi; 0; 0];       % Rx Euler rotation angles, following ZYX intrinsic rotation
@@ -425,7 +425,7 @@ p.nSamplesperFrame = 60000;     % Length of input signal in samples
 
 %% Misalignment parameters
 
-p.Misalignment = 'On';  % 'Off' 'On'
+p.Misalignment = 'Off';  % 'Off' 'On'
 
 % Input parameters for misalignment
 % This misalignment model will be updated in the second version of TeraMIMO
