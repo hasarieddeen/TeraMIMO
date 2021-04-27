@@ -419,7 +419,7 @@ end
 
 %% Misalignment parameters
 
-p.Misalignment = 'On';  % 'Off' 'On'
+p.Misalignment = 'Off';  % 'Off' 'On'
 
 % Input Parameters for Misalignment
 % This misalignment model will be updated in the second version of TeraMIMO
