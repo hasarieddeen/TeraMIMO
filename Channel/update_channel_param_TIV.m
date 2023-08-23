@@ -77,13 +77,13 @@ if isfield(q,'BW')
 else
     p.BW = 0.01e12;
 end
-if isfield(q,'Nsubb')
+if isfield(q,'Nsub_c')
     p.Nsub_c = q.Nsub_c;   % Number of subcarriers to divide the total Bandwidth (K-subcarriers)  
 else
     p.Nsub_c = 1;
 end
 p.BW_sub = p.BW/p.Nsub_c; % Subcarrier bandwidth (Hz)
-if isfield(q,'Nsubc')
+if isfield(q,'Nsub_b')
     p.Nsub_b = q.Nsub_b;   % Number of sub-bands in each subcarrier
 else
     p.Nsub_b = 2^9;
