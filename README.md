@@ -12,8 +12,6 @@
             slim.alouini@kaust.edu.sa; tareq.alnaffouri@kaust.edu.sa
 
 
-
-
 ----  Important information ----
 
 
